@@ -1,0 +1,12 @@
+coffeeshop\Coffee.class
+coffeeshop\CoffeeReceived.class
+coffeeshop\OrderCanceled.class
+coffeeshop\Application.class
+coffeeshop\CoffeeRepository.class
+coffeeshop\OrderPlaced.class
+coffeeshop\CoffeeController.class
+coffeeshop\PolicyHandler.class
+coffeeshop\AbstractEvent.class
+coffeeshop\config\kafka\KafkaProcessor.class
+coffeeshop\QuantityChanged.class
+coffeeshop\AbstractEvent$1.class
