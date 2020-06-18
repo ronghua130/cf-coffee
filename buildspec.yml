@@ -76,12 +76,6 @@ phases:
                   image: $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/cf-$_PROJECT_NAME:$CODEBUILD_RESOLVED_SOURCE_VERSION
                   ports:
                     - containerPort: 8080
-                  env:
-                    - name: debug
-                      valueFrom:
-                        configMapKeyRef:
-                           name: config-mode
-                           key: mode
                   readinessProbe:
                     httpGet:
                       path: /actuator/health
